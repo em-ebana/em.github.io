@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+}
+*, *:after{
+    box-sizing: inherit;
+}
+body{
+    background: url(../img/bg2.jpg);
+    background-size: 200%;
+    background-position: -400px -200px ;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+form{
+    margin: 3rem auto 10rem auto;
+    width: 60%;
+    height: auto;
+    background-color: rgba(0, 0,0, 0.45);
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: auto;
+}
+label, input:not([type="radio"]):not([type="checkbox"]), textarea, select, button{
+    display: block;
+    width: 50rem;
+    padding: 1rem 0 0 0;
+   
+}
+label, p, select, input, button{
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+p, [ for="comment"], [for="favorite"], button {
+    margin-top: 3rem;
+}
+input:not([type="radio"]):not([type="checkbox"]), select{
+    margin-bottom: 3rem;
+}
+button{
+    margin-bottom: 5rem;
+   padding: 0.8rem;
+   color: #fff;
+   background-color: rgb(208, 226, 43);
+   font-weight: 900;
+
+}
